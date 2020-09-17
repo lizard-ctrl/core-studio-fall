@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<title>i am just a number</title>
+		<link rel = "stylesheet" href = "style.css">
+	</head>
+
+	<body>
+        <button onclick="info()">MYSELF IN BINARY</button>
+        <div id="box">    
+            <p id="info"></p>
+            </div>
+
+        <center>
+          <img src="assets/Screen Shot 2020-09-17 at 4.09.24 PM.png" width=700px;> 
+          <br>
+          <a href="https://lizard-ctrl.github.io/core-studio-fall/daily-sketches/sketch2/">
+            <br> <br>
+            <img alt="sketch2" src="assets/Screen Shot 2020-09-17 at 3.29.20 PM.png"
+            width=700px> </a>
+            <br><br>
+            <a href="https://lizard-ctrl.github.io/core-studio-fall/daily-sketches/sketch1/">
+                
+                <img alt="sketch2" src="assets/Screen Shot 2020-09-17 at 3.29.02 PM.png"
+                width=700px> </a>
+                <br><br>
+           <img src="assets/Screen Shot 2020-09-17 at 3.40.28 PM.png" width= 700px;>
+
+       </center>
+
+       
+
+       <script>
+         
+var i = 0;
+var txt = 'This project was an exploration of my data downloaded from various social media sites. I wanted to examine the flawed way we are viewed when its just pieces of what we have put out onto the internet. I made 5 different projects over 5 days in various mediums based around this. This is not super serious.';
+var speed = 40;
+      
+function typeWriter() {
+  if (i < txt.length) {
+      document.getElementById("info").innerHTML += txt.charAt(i);
+      i++;
+      setTimeout(typeWriter, speed);
+        }  
+    }
+function info(){
+     typeWriter();
+}
+  
+</script>
+       
+       
+       
+       
+       
+       </script>
+	</body>
+
+</html>

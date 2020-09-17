@@ -1,0 +1,39 @@
+
+
+body{
+   
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: black;
+    font-family: "ShadowedBlack Normal";
+    font-size: larger;
+    
+    padding: 0px !important;
+    }
+    
+    
+    p{
+        
+        color:black;
+        background-color: white;
+        width:40%;
+    }
+    
+    
+    button{
+        background-color: white;
+        color: black;
+        font-family: "ShadowedBlack Normal";
+      font-size: xx-large;
+    
+    }
+    
+    button:hover{
+        background-color: white;
+        color: greenyellow;
+    }
+    p:hover{
+    
+        color: greenyellow;
+    }
