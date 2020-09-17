@@ -1,11 +1,29 @@
+@font-face {font-family:"ShadowedBlack Normal";src:url("assets/Shadowed_Black.eot?") format("eot"),url("assets/Shadowed_Black.woff") format("woff"),url("https://cdn.glitch.com/47fa30f5-a0cf-4b4b-9488-ae5b5b4d9045%2FShadowed_Black.ttf?v=1599002949592") format("truetype"); font-weight:normal;font-style:normal;}
+
+
+
 body{
 background-color: orchid;
-
+background-image: url(assets/floatingpinkhearts.gif) ;
+font-family: "ShadowedBlack Normal";
 
 
 }
 p{
- color: yellowgreen;
+ color: black;
+ width: 50%;
+ 
  
 
+}
+
+button{
+	background-color: white;
+	color: purple;
+	font-family: "ShadowedBlack Normal";
+    font-size: xx-large;
+}
+
+button:hover{
+    color:hotpink;
 }

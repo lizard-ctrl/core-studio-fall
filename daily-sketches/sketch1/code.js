@@ -6,7 +6,7 @@ var move_elem = document.getElementById("move");
 document.onmousemove = function(event) {
 
 	java_elem.style.width = event.pageX + "px";
-	java_elem.style.height = event.pageY + "px";
+	java_elem.style.height = event.pageY + "px" -200;
 
 	script_elem.style.width = (window.innerWidth - event.pageX) + "px";
 	script_elem.style.height = event.pageY + "px";
@@ -22,3 +22,11 @@ document.onmousemove = function(event) {
 	move_elem.style.top = event.pageY + "px";
 
 }
+
+function show_image()
+{
+	document.getElementById("image_holder").style.display="block";  
+	document.getElementById("textDisappear").style.display="none";
+ }
+
+ 
