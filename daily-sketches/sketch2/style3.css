@@ -1,0 +1,11 @@
+body {
+    background-image:url(assets/Screen\ Shot\ 2020-09-24\ at\ 1.14.19\ PM.png);
+    background-position: center;
+    background-repeat: repeat;
+    background-size: cover;
+    width:25%;
+  }
+pre{
+    color:red;
+    background-color: seashell;
+}
