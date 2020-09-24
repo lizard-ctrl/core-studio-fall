@@ -1,0 +1,50 @@
+body {
+  background-image: url("assets3/sparkleline.gif");
+  background-repeat: repeat;
+  background-color: lightblue;
+  font-family: "Anton", sans-serif;
+  font-size: larger;
+  width: 29%;
+  padding: 0px !important;
+}
+
+.static {
+  padding: 20px;
+}
+
+.moving {
+  position: relative;
+  margin-top: 10px;
+  animation: push ease 5s alternate infinite;
+  animation-delay: 2.5s;
+}
+
+@keyframes push {
+  0% {
+    left: 100px;
+    top: 10px;
+  }
+
+  50% {
+    left: -20px;
+    top: 100px;
+  }
+  100% {
+    top: 200px;
+    left: 300px;
+  }
+}
+
+.hide {
+  display: none;
+}
+
+.myDIV:hover + .hide {
+  display: block;
+}
+
+p {
+  background-color: lightcyan;
+  color: black;
+}
+

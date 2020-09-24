@@ -1,0 +1,4 @@
+- definitely going to work off this sketch for the completed project
+- thinking about making some of the collage pictures links, that will work around the non linear story telling
+- would bring each point deeper into the sketch, say u click the text message image some sort of art piece that analyzes that specific instance more
+-
