@@ -1,11 +1,9 @@
 body {
-  background-image: url("assets3/sparkleline.gif");
+  background-image: url("assets3/Screen\ Shot\ 2020-09-24\ at\ 2.50.05\ PM.png");
   background-repeat: repeat;
+  background-size: cover;
   background-color: lightblue;
   font-family: "Anton", sans-serif;
-  font-size: larger;
-  width: 29%;
-  padding: 0px !important;
 }
 
 .static {
