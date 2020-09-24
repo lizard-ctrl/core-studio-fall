@@ -3,7 +3,8 @@ body {
     background-position: center;
     background-repeat: repeat;
     background-size: cover;
-    font-family: "Anton", sans-serif;
+    font-family: 'Roboto Mono', monospace;
+    color:red;
     font-size: larger;
     width: 20%;
     padding: 0px !important;

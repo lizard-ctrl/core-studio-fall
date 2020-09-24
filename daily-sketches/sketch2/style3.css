@@ -9,3 +9,7 @@ pre{
     color:red;
     background-color: seashell;
 }
+
+a{
+  text-decoration: none;
+}
