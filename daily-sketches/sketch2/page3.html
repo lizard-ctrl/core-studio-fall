@@ -11,10 +11,7 @@
     
   </head>  
   <body>
-    <!--defining the css class that will change-->
-    
-<body class="target goodMorn">
-			 
+
      <div id="text1" style=" position: absolute; top:20px; left:1000px;">
 			<img src="assets2/IMG_8917 (1).PNG" style= "width:170px;">
       </div>
@@ -354,29 +351,6 @@ setInterval(function(){
  text25.style.display = "none"; 
   
  }, 6000);
-
-
-
-//changing the background color every 3 seconds to correspond with changing images
-
-//function that either removes or adds the different style element
-const backgroundColorChange = function (element) {
-    if (element.classList.contains('goodMorn')) {
-        element.classList.remove('goodMorn');
-        element.classList.add('goodNacht');
-    } else {
-        element.classList.remove('goodNacht');
-        element.classList.add('goodMorn');
-    }
-}
-
-//function that changes it based on time interval
-const backgroundColorElement = document.querySelector('.target');
-const timer = setInterval(function () {
-  backgroundColorChange(backgroundColorElement)
-}, 3000)
-
-
 </script>
   
   
