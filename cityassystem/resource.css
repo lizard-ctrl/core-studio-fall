@@ -1,0 +1,27 @@
+
+  body {
+    background: rgb(207,144,197);
+    background: linear-gradient(90deg, rgba(207,144,197,1) 0%, rgba(159,199,201,1) 47%, rgba(153,97,145,1) 100%);
+      box-sizing: border-box;
+      margin: 0;
+      padding: 13px;
+      display: flex;
+      flex-direction: column;
+      max-height: 100vh;
+      font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+    }
+ 
+  
+  p {
+    padding: 32px;
+    display: flex; 
+    background: white;
+    opacity: 50%;
+    color: blueviolet;
+    z-index: -1;
+    border-radius: 1em;
+    padding: 15px;
+    font-size: x-large;
+  }
+  
+  

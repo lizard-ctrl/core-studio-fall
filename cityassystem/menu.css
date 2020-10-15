@@ -1,0 +1,21 @@
+body{
+    background: rgb(132,141,189);
+    background: radial-gradient(circle, rgba(132,141,189,1) 24%, rgba(46,194,147,1) 65%, rgba(81,144,149,1) 82%);
+    }
+    
+    input{
+    background: white;
+    filter: blur(10px);
+    z-index: -1;
+    border-radius: 1em;
+    padding: 30px;
+    }
+    a{
+    background: white;
+    opacity: 50%;
+    color: blueviolet;
+    z-index: -1;
+    border-radius: 1em;
+    padding: 15px;
+    font-size: x-large;
+    }

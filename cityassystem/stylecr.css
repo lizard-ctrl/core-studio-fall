@@ -1,0 +1,78 @@
+body {
+  background: rgb(207,144,197);
+  background: linear-gradient(90deg, rgba(207,144,197,1) 0%, rgba(159,199,201,1) 47%, rgba(153,97,145,1) 100%);
+    box-sizing: border-box;
+    margin: 0;
+    padding: 13px;
+    display: flex;
+    flex-direction: column;
+    max-height: 100vh;
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+  }
+
+  .members-count,
+  .members-list,
+  .messages { 
+    width: 100%;
+    height: 100%;
+    background-color: orangered;
+    color: white;
+    z-index: -1;
+    border-radius: 1em;
+    padding: 10px;
+    margin-bottom: 15px;
+  }
+  .messages:hover{
+    animation: transition 80s;
+  }
+
+  .messages {
+    width:200;
+    overflow: auto;
+  }
+
+  .message {
+    padding: 5px 0;
+    width: 70;
+  }
+  .message .member {
+    display: inline-block;
+  }
+
+  .member {
+    padding-right: 10px;
+    position: relative;
+  }
+
+  .message-form {
+   display: flex;
+    flex-shrink: 0;
+   
+  }
+  .message-form__input {
+    flex-grow: 1;
+    background-color: orangered;
+    border-color: white;
+    color: white;
+    padding: 10px; 
+    border-radius: 1em;
+    border: 10px ;
+    width: 60%;
+    font-size: 40px;
+  }
+
+
+  #box{
+    width:50%;
+    }
+    #box2{
+      width:55%;
+      }
+
+
+      @keyframes transition {
+        from {}
+        to { 
+            filter: blur(150px);
+        }
+      }
