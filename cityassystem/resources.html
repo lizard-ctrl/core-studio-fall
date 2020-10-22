@@ -8,33 +8,36 @@
   <meta name="description" content="The HTML5 Herald">
   <meta name="author" content="SitePoint">
   <link href="resource.css" rel="stylesheet" type="text/css" id="stl" />
-
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
   
 
 </head>
 
 <body>
-  <div class= "container">
-      <p>
-        76th Precinct, Domestic Violence Unit, New York City Police Department 1-718-834-3204
-      </p> 
-      <p>
-        Edith and Carl Marks Jewish Community House of Bensonhurst - Family Violence Prevention Program 1-718-943-6347
-      </p>
-      <p>
-        Safe Horizon - 18th Precinct Crime Victim Assistance Program (CVAP)  1-212-767-2190
-      </p>
-      <p>
-        Safe Horizon - Queens Supervised Visitation Program   1-718-262-0202
-      </p>
-      <p>
-        23rd Precinct, Domestic Violence Unit, New York City Police Department  1-212-860-6435
-      </p>
-      <p>Safe Horizon - 109th Precinct Domestic Violence Victim Advocate  1-718-321-8229 
+  
+  <link href="style3.css" rel="stylesheet" type="text/css" id="stl" />
 
-      </p>
-      <p>The Center for Anti-Violence Education, Inc.  1-718-788-1775</p>
+  <script type="text/javascript">
+      var plusmin = 1;
+$(document).ready(function() {
+ $('#css').click(function(){
+    plusmin *= -1;        
+    var stl = plusmin>0 ? 'resource.css' : 'css2.css';     
+    $('#stl[rel=stylesheet]').attr('href', stl);
+  });
+});
+function show_image() {
+  document.getElementById("image_holder").style.display = "block";
+  document.getElementById("textDisappear").style.display = "none";
+}
+  </script>
+  <center>
+  <div style="color:black; background-color: white; width:100px;"  id="css" > next page <br /> </div>
+  </center>
+   <div class= "list">
+      
     </div>
+ 
     <script src="javascript/airtable.source.js"></script>
   <script src="javascript/resource.js"></script>
   <link href="resource.css"></link>

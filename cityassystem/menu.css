@@ -19,3 +19,14 @@ body{
     padding: 15px;
     font-size: x-large;
     }
+
+    p{
+        background: white;
+        opacity: 50%;
+        color: blueviolet;
+        z-index: -1;
+        border-radius: 1em;
+        padding: 15px;
+        font-size: x-large;
+        width: 50%;
+    }
