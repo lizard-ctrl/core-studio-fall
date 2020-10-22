@@ -30,10 +30,15 @@
     display: flex; 
     background: purple;
     opacity: 100%;
-    color: black;
+    color: white;
     z-index: -1;
     border-radius: 1em;
     padding: 15px;
     font-size: x-large;
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
     
+  }
+
+  a{
+      color:white;
   }
