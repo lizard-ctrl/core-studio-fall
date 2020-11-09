@@ -1,0 +1,11 @@
+body{
+    background-image: url("images/sparklecloud.gif"); 
+    background-color: blue;
+    background-repeat: repeat;
+    
+    }
+
+    button{
+        color: white;
+        background-color: violet;
+    }
