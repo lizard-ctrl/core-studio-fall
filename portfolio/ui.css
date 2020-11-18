@@ -1,0 +1,58 @@
+body{
+    background-color: skyblue;
+}
+
+
+
+.type-heading-1 {
+    font-family: 'Press Start 2P', cursive;
+    text-transform: uppercase;
+    border-bottom: 1px solid;
+    font-weight: 100;
+    font-size: 2rem;
+    margin: 0 0 3rem;
+  }
+
+  .type-heading-2 {
+    font-family: 'Goldman', cursive;
+    text-transform: uppercase;
+    border-bottom: 1px solid;
+    font-weight: 100;
+    font-size: 2rem;
+    margin: 0 0 3rem;
+  }
+
+  .type-body-1 {
+    font-family: 'Goldman', cursive;
+    text-transform: lowercase;
+    border-bottom: 1px solid;
+    font-weight: 50;
+    font-size: 2rem;
+    margin: 0 0 3rem;
+  }
+
+
+  .color-primary{
+      background-color: white;
+      color: skyblue;
+  }
+
+  .color-secondary{
+      color: darkblue;
+  }
+
+  .color-accent{
+      color: orchid;
+  }
+
+  .button-primary{
+    font-family: 'Goldman', cursive;
+    text-transform: lowercase;
+    background: orchid;
+    opacity: 50%;
+    color: white;
+    z-index: -1;
+    border-radius: 10em;
+    padding: 10px;
+    font-size: medium;
+  }
