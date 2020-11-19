@@ -1,6 +1,6 @@
 body{
     background-image: none;
-    background-color: hotpink;
+    background-color: black;
     font-family:'Goldman', cursive;
 }
 
@@ -58,3 +58,35 @@ body{
   #box{
     width:500;
     }
+
+    #drag {
+        position: absolute;
+      }
+      
+      #drag1 {
+        position: absolute;
+      }
+      
+      #drag2 {
+        position: absolute;
+      }
+      
+      #drag3 {
+        position: absolute;
+      }
+      
+      #drag4 {
+        position: absolute;
+      }
+      
+      #drag5 {
+        position: absolute;
+      }
+      
+      #drag6 {
+        position: absolute;
+      }
+      
+      #drag7 {
+        position: absolute;
+      }
