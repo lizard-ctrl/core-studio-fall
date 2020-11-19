@@ -1,0 +1,60 @@
+body{
+    background-image: none;
+    background-color: hotpink;
+    font-family:'Goldman', cursive;
+}
+
+.members-count,
+  .members-list,
+  .messages { 
+    width: 100%;
+    height: 100%;
+    background-color: orangered;
+    color: white;
+    z-index: -1;
+    border-radius: 1em;
+    padding: 10px;
+    margin-bottom: 15px;
+  }
+  .messages:hover{
+    animation: transition 80s;
+  }
+
+  .messages {
+    
+    overflow: auto;
+  }
+
+  .message {
+    padding: 5px 0;
+    
+  }
+  .message .member {
+    display: inline-block;
+  }
+
+  .member {
+    padding-right: 10px;
+    position: relative;
+  }
+
+  .message-form {
+   display: flex;
+    flex-shrink: 0;
+   
+  }
+  .message-form__input {
+    flex-grow: 1;
+    background-color: orangered;
+    border-color: white;
+    color: white;
+    padding: 10px; 
+    border-radius: 1em;
+    border: 10px ;
+    width: 300;
+    font-size: 40px;
+  }
+
+  #box{
+    width:500;
+    }

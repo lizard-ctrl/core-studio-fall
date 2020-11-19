@@ -1,0 +1,20 @@
+body{
+    background-image: url(assets/sparkleline-1.gif);
+    background-color: black;
+    font-family:'Goldman', cursive;
+}
+
+pre{
+    background-color: white;
+    color: darkblue;
+}
+button{
+    font-family: 'Goldman', cursive;
+    color: darkblue;
+}
+
+p{
+    background-color: white;
+    color: darkblue;
+    width: 25%;
+}
