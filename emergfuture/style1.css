@@ -1,5 +1,6 @@
 body{
-    background-image: none;
+    background-image: url(assets/original.gif);
+    background-size: cover;
     background-color: black;
     font-family:'Goldman', cursive;
 }
@@ -88,5 +89,29 @@ body{
       }
       
       #drag7 {
+        position: absolute;
+      }
+
+      #drag8 {
+        position: absolute;
+      }
+      
+      #drag9 {
+        position: absolute;
+      }
+      
+      #drag10 {
+        position: absolute;
+      }
+      
+      #drag11 {
+        position: absolute;
+      }
+      
+      #drag12 {
+        position: absolute;
+      }
+      
+      #drag13 {
         position: absolute;
       }
