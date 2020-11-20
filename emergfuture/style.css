@@ -1,5 +1,6 @@
 body{
-    background-image: url(assets/sparkleline-1.gif);
+    background-image: url(assets/original.gif);
+    background-size: cover;
     background-color: black;
     font-family:'Goldman', cursive;
 }
