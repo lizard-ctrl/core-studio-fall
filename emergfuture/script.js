@@ -63,10 +63,10 @@ drone.on('error', error => {
 });
 
 function getRandomName() {
-  const sexa = ["shimmering", "silky", "sleek", "slinky", "smashing", "solid_gold",  "spell_binding", "spicy", "tempting", "tender", "moist", "throbbing", "thrusting", "sweaty", "foxy", "phat", "thicc", "spicy", "sizzling", "dreamy" , "smoky", "luscious", "smoking_hot" , "erotic", "tarty", "filthy", "E", "hot" ];
+  const sexa = ["shimmering", "silky", "sleek", "slinky", "smashing", "solid_gold",  "spell_binding", "spicy", "tempting", "tender", "moist", "throbbing", "thrusting", "sweaty", "foxy", "cute", "thicc", "spicy", "sizzling", "dreamy" , "smoky", "luscious", "smoking_hot" , "erotic", "tarty", "filthy", "E", "hot" ];
   const sexn = [
 
-    "stallion", "hot_lips", "thot", "rod", "cock", "balls", "MILF", "DILF", "climax", "CyberSex", "money", "coins", "cum", "ejaculation", "gangbang", "phonesex", "orgasm", "quickie",  "threesome", "intimacy", "girl", "boy", "dad", "mom", "pet", "sub", "dom"];
+    "stallion", "hot_lips", "hotty", "rod", "fairy", "balls", "MILF", "DILF", "climax", "CyberSex", "money", "coins", "cum", "kitten", "gangbang", "phonesex", "orgasm", "quickie",  "threesome", "intimacy", "girl", "boy", "dad", "mom", "pet", "sub", "dom"];
   return (
     sexa[Math.floor(Math.random() * sexa.length)] +
     "_" +
