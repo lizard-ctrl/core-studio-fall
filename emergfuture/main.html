@@ -5,8 +5,10 @@
     <script type='text/javascript' src='https://cdn.scaledrone.com/scaledrone.min.js'></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.6.1/p5.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.6.1/addons/p5.dom.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mediaelement/2.22.0/jquery.js"></script>
     <script src="https://www.auduno.com/clmtrackr/build/clmtrackr.min.js"></script>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mediaelement/2.22.0/mediaelement-and-player.min.js"></script>
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Goldman&family=Press+Start+2P&display=swap" rel="stylesheet">
@@ -14,6 +16,11 @@
 </head>
 
 <body>
+
+
+ 
+
+
     <script src="sketch.js" style="width:500px; height: 300px;"></script>
  
     <div id="dragbox">
@@ -77,20 +84,57 @@
        <div id="drag13">
         <img src="assets/angelright.gif" style="position: absolute; top:520px; left:600px; width:80px;">
       </div>
-
       
-
+      <div id="player" class="box">
+        <audio controls src="http://stream.zeno.fm/xk9bwpgk1k0uv">
+    </audio>
+    <audio class="audio" controls="controls">
+      <source type="audio/mpeg" src="http://stream.zeno.fm/xk9bwpgk1k0uv">
+      </audio> 
+    </div>
+ 
+    <button id="chatButton" onclick="chatroom()">CHAT</button>
+<div id="chatroom">
     <div id="box" style="position:absolute; left:750px; top: 10px;">
         <center>
+         
         <div class="members-count">-</div>
+        <br><br><br>
         <div class="members-list">-</div>
+        <br><br><br>
        <div class="messages"></div>
+       <br><br><br>
         <form class="message-form" onsubmit="return false;">
-         <input class="message-form__input" placeholder="say hey hotty" type="text">
+          <br><br><br>
+         <input class="message-form__input" placeholder="say hey hotty" type="text" style="color:chartreuse">
           
         </form>
     </center>
       </div>
+    </div>
+
+
+      <button onclick="FAQ()">FAQ</button>
+      
+      <div id="FAQ">
+        <center>
+        <h2 style="font-size: medium;">CAN ANYONE SEE WHAT IM DOING?</h2>
+      </center>
+        <p style="width: 100%; background-color: transparent; color: hotpink;">Your video stream is only available for you to see. The chatroom is a function to create community but nobody else has access to your stream.</p>
+        <center>
+        <h2 style="font-size: medium;">HOW CAN I RECORD CONTENT?</h2>
+      </center>
+        <p style="width: 100%; background-color: transparent; color: hotpink;">To make sure content has no ability to be stolen or stored by anyone but you we recommend using QuickTime to record. You can do this by opening QuickTime and selecting screen record from the drop down. You then select the area of the cam box and click “record” to start. It will then automatically save to your desktop for further use. </p>
+        <img src="assets/faqm.png" style="width: 200px; height: 200px;">
+        <img src="assets/faqv.png" style="width: 250px; height: 200px;">
+        <img src="assets/faqr.png" style="width: 400px;">
+        <center>
+        <h2 style="font-size: medium;">HOW CAN I PLAY MUSIC + SUBMIT SONGS?</h2>
+      </center>
+        <p style="width: 100%; background-color: transparent; color: hotpink;">To play from our collaborative radio just click the heart in the bottom right corner. To submit songs email a link to paydostaylor@gmail.com and the radio will be updated accordingly.</p>
+      
+      </div>
+
 
       <script src="script.js"></script>
       <script>
@@ -152,6 +196,27 @@
     
 }
 
+$('audio').mediaelementplayer({
+            features: ['playpause']
+        });
+
+        function FAQ() {
+  var x = document.getElementById("FAQ");
+  if (x.style.display === "block") {
+    x.style.display = "none";
+  } else {
+    x.style.display = "block";
+  }
+}
+
+function chatroom() {
+  var x = document.getElementById("chatroom");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
     
       </script>
 </body>
