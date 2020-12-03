@@ -22,13 +22,13 @@
 
 
     <script src="sketch.js" style="width:500px; height: 300px;"></script>
- 
+    
     <div id="dragbox">
           </div>
    
     <h2 style="position: absolute; top:490px; left:160px;">DRAGGABLE ICONS</h2>
     <div id="drag">
-        <img src="assets/butterfly_2.gif" style="position: absolute; top:520px; left:300px; width:100px;">
+        <img src="assets/ButterflyJewel.gif" style="position: absolute; top:520px; left:300px; width:100px;">
        </div>
          
        
@@ -37,7 +37,7 @@
        </div>
          
        <div id="drag2">
-         <img src="assets/heart_changing_color.gif" style="position: absolute; top:520px; left:210px;">
+         <img src="assets/bluesparkle.gif" style="position: absolute; top:520px; left:210px;">
        </div>
          
          <div id="drag3">
@@ -53,11 +53,11 @@
        </div>
 
        <div id="drag6">
-        <img src="assets/angelright.gif" style="position: absolute; top:520px; left:600px; width:80px;">
+        <img src="assets/spider5.gif" style="position: absolute; top:520px; left:600px; width:80px;">
       </div>
 
       <div id="drag7">
-        <img src="assets/butterfly_2.gif" style="position: absolute; top:520px; left:300px; width:100px;">
+        <img src="assets/ButterflyJewel.gif" style="position: absolute; top:520px; left:300px; width:100px;">
        </div>
          
        
@@ -66,7 +66,7 @@
        </div>
          
        <div id="drag9">
-         <img src="assets/heart_changing_color.gif" style="position: absolute; top:520px; left:210px;">
+         <img src="assets/bluesparkle.gif" style="position: absolute; top:520px; left:210px;">
        </div>
          
          <div id="drag10">
@@ -82,7 +82,7 @@
        </div>
 
        <div id="drag13">
-        <img src="assets/angelright.gif" style="position: absolute; top:520px; left:600px; width:80px;">
+        <img src="assets/spider5.gif" style="position: absolute; top:520px; left:600px; width:80px;">
       </div>
       
       <div id="player" class="box">
@@ -115,12 +115,45 @@
 
 
       <button onclick="FAQ()">FAQ</button>
+
+      <button id="resoButton" onclick="resources()">RESOURCES</button>
+      <div id="reso">
+        <center>
+        <p style="background-color: transparent; width: 100%;">
+         
+      
+      <h2> SEXUAL ASSAULT </h2> 
+      National Sexual Assault Hotline: 1-800-656-HOPE (4673) 
+      <h2>DOMESTIC VIOLENCE </h2>
+      Safe Horizon Hotline (includes shelter): 1-800-621-HOPE 
+      <h2>LGBTQ OR HIV-RELATED HATE VIOLENCE</h2> 
+      Anti-Violence Project Hotline: 212-714-1141 (English/Spanish) 
+      <h2>SUICIDE</h2>
+      Samaritan Hotline: 212-673-3000 
+      <h2>OTHER CRISIS</h2> 
+      Lifenet Hotline: 800-543-3638 
+      <h2>WEBSITES</h2>
+      <a href="https://www.nswp.org/resources/types/nswp-smart-guides">NSWP Smart Guides</a> 
+      
+      <a href="https://swopusa.org/">Sex workers outreach project</a>
+      
+      <a href="https://www.camgirltoolbox.com/">Camgirl toolbox</a>
+      
+      <a href="https://www.reddit.com/r/SexWorkersOnly/">Sexworkers support group</a>
+      
+      <a href="https://www.pcmag.com/how-to/how-to-set-up-and-use-a-vpn">How to set up a VPN</a>
+      
+     
+      
+      </p>
+    </center>
+      </div>
       
       <div id="FAQ">
         <center>
         <h2 style="font-size: medium;">CAN ANYONE SEE WHAT IM DOING?</h2>
       </center>
-        <p style="width: 100%; background-color: transparent; color: hotpink;">Your video stream is only available for you to see. The chatroom is a function to create community but nobody else has access to your stream.</p>
+        <p style="width: 100%; background-color: transparent; color: hotpink;">Your video stream is only available for you to see. The chatroom is a function to create community but nobody else has access to your stream, to turn it off click chat.</p>
         <center>
         <h2 style="font-size: medium;">HOW CAN I RECORD CONTENT?</h2>
       </center>
@@ -131,7 +164,7 @@
         <center>
         <h2 style="font-size: medium;">HOW CAN I PLAY MUSIC + SUBMIT SONGS?</h2>
       </center>
-        <p style="width: 100%; background-color: transparent; color: hotpink;">To play from our collaborative radio just click the heart in the bottom right corner. To submit songs email a link to paydostaylor@gmail.com and the radio will be updated accordingly.</p>
+        <p style="width: 100%; background-color: transparent; color: hotpink;">To play from our collaborative radio just click the heart in the top right corner. To submit songs email a link to paydostaylor@gmail.com and the radio will be updated accordingly.</p>
       
       </div>
 
@@ -215,6 +248,16 @@ function chatroom() {
     x.style.display = "block";
   } else {
     x.style.display = "none";
+  }
+}
+
+
+function resources() {
+  var x = document.getElementById("reso");
+  if (x.style.display === "block") {
+    x.style.display = "none";
+  } else {
+    x.style.display = "block";
   }
 }
     
