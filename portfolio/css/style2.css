@@ -10,6 +10,7 @@ body{
   }
   
   button{
+    background: transparent;
     color: darkmagenta;
     font-family: 'Press Start 2P', cursive;
   }
