@@ -1,0 +1,143 @@
+body{
+  background-image: url(../images/clouds.gif);
+  background-repeat: repeat;
+  background-color: hotpink;
+  cursor: url(../images/cursor10.gif), url(../images/cursor10.gif), default;
+  font-family: 'Press Start 2P', cursive;
+}
+
+button{
+  color: darkmagenta;
+  font-family: 'Press Start 2P', cursive;
+}
+
+#text {
+  color: darkmagenta;
+  font-size: 30px;
+  position: absolute;
+  text-align: center;
+}
+h2{
+  color: darkmagenta;
+}
+#phone{
+    width: 30%;
+    height: 60%;
+    background-color: fuchsia;
+    border: 8px solid fuchsia;
+    top: 15%;
+    left: 35%;
+    position: absolute;
+    background-image: url(../images/tenor-2.gif);
+    background-size: cover;
+}
+#cs1{
+    font-family: 'Goldman', cursive;
+    color: white;
+    font-size: 30px;
+    position: absolute;
+    text-align: center;
+    width: 30%;
+    height:30%;
+    background-image: url(..//images/datamine.png);
+    background-size: cover;
+    background-color: fuchsia;
+    border: 8px solid fuchsia;
+    position: absolute;
+    top: 5%;
+    left: 68%;
+}
+#cs2{
+    font-family: 'Goldman', cursive;
+    color: white;
+    font-size: 30px;
+    position: absolute;
+    text-align: center;
+    width: 30%;
+    height: 30%;
+    background-image: url(..//images/chatbott.png);
+    background-size: cover;
+    border: 8px solid fuchsia;
+    position: absolute;
+    top: 60%;
+    left: 2%;
+}
+#cs3{
+    font-family: 'Goldman', cursive;
+    color: white;
+    font-size: 30px;
+    position: absolute;
+    text-align: center;
+    width: 32%;
+    height: 40%;
+    background-image: url(..//images/camcontent.png);
+    background-size: cover;
+    border: 8px solid fuchsia;
+    position: absolute;
+    top: 50%;
+    left: 67%;
+}
+#am{
+    font-family: 'Goldman', cursive;
+    width: 30%;
+    height: 50%;
+    background-color: fuchsia;
+    border: 2px solid fuchsia;
+    position: absolute;
+    top: 5%;
+    left: 3%;
+    background-image: url(../images/tenor.gif);
+    background-size: cover;
+}
+#cm{
+    font-family: 'Goldman', cursive;
+    width: 28%;
+    height: 5%;
+    background-image:url(../images/original.gif);
+    border: 2px solid fuchsia;
+    position: absolute;
+    top: 80%;
+    left: 36%;
+}
+
+#overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: 2s ease;
+    background-color: red;
+    background-image: url(../images/FarMediocreJuliabutterfly-size_restricted.gif);
+    background-size: cover;
+  }
+
+  
+
+ 
+  
+  #cs1:hover #overlay {
+    opacity: 1;
+  }
+  #cs2:hover #overlay {
+    opacity: 1;
+  }
+  #cs3:hover #overlay {
+    opacity: 1;
+  }
+  
+  #am:hover {
+    color: red;
+    background-image: url(../images/giphy-4.gif);
+    background-size: cover;
+  }
+
+  #cm:hover{
+    background-image: url(../images/original.gif);
+  }
+
+  
+  

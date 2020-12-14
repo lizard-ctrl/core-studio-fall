@@ -1,0 +1,50 @@
+body{
+    background-image: url(../images/cambg\ copy.jpg);
+    background-size: cover;
+    cursor: url(../images/cursor10.gif), url(../images/cursor10.gif), default;
+    font-family: 'Press Start 2P', cursive;
+  }
+
+  button{
+    background: transparent;
+    color: darkmagenta;
+    font-family: 'Press Start 2P', cursive;
+  }
+  
+  #infoBox{
+      background-image: url(../images/videoCam3.gif);
+      background-size: cover;
+      width: 620px;
+      height: 450px;
+      background-color: fuchsia;
+      border: 5px solid fuchsia;
+      top: 23%;
+      left: 1%;
+      position: absolute;
+  }
+
+ 
+  #pic1{
+    border: 8px solid fuchsia;
+    background-image: url(../images/mainCam2.gif);
+    background-size: cover;
+    position: absolute;
+    width: 35% !important;
+    height: 35% !important;
+    top: 2% !important;
+    left: 50% !important;
+  }
+
+  #pic2{
+    border: 8px solid fuchsia;
+    background-image: url(../images/FAQcam1.gif);
+    background-size: cover;
+    position: absolute;
+    width: 30% !important;
+    height: 50% !important;
+    top: 40% !important;
+    left: 65% !important;
+  }
+
+  
+  

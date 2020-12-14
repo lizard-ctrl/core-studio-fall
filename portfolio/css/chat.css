@@ -1,0 +1,35 @@
+body{
+    background-image: url(../images/compbg.jpg);
+    background-size: cover;
+    cursor: url(../images/cursor10.gif), url(../images/cursor10.gif), default;
+    font-family: 'Press Start 2P', cursive;
+  }
+
+  button{
+    background: transparent;
+    color: darkmagenta;
+    font-family: 'Press Start 2P', cursive;
+  }
+  
+  #infoBox{
+      width: 50%;
+      height: 90%;
+      background-color: fuchsia;
+      border: 8px solid fuchsia;
+      top: 3%;
+      left: 45%;
+      position: absolute;
+      background-image: url(../images/giphy-1.gif);
+      background-size: cover;
+  }
+
+  #pic1{
+    border: 8px solid fuchsia;
+    background-image: url(../images/chatintro.gif);
+    background-size: cover;
+    position: absolute;
+    width: 30% !important;
+    height: 90% !important;
+    top: 3% !important;
+    left: 3% !important;
+  }

@@ -1,11 +1,13 @@
 <html>
 <head>
-  <link rel="stylesheet" href="../portfolio/css/style2.css">
+  <link rel="stylesheet" href="../portfolio/css/data.css">
+  <script src="js/airtable.browser.js"></script>
+  <script src="js/dataportrait.js"></script>
   <script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link href="https://fonts.googleapis.com/css2?family=Goldman&family=Press+Start+2P&display=swap" rel="stylesheet">
-  <script type="text/javascript" src="../portfolio/js/site.js"></script>
+  
 
 </head>
 <body>
@@ -13,75 +15,33 @@
 
     
   
-     
-
+ 
 
   
 
-  <div class="phone that i place these links in" id="phone">
-  
+  <div id="infoBox">
   <center>
     <br>
     <br>
-    
+    <div id="title"></div>
+    <div id="role"></div>
     <p>This interactive web art piece is a collection of all the data that is publically available of me online. It is also a collection of <button class="toggle1" onclick="pic1()">private data</button> that I've engaged in creating on my phone. The project explores the different <button class="case study link" onclick="pic2()">childhood personas</button> I projected online along with more adult ones. It questions what it means to grow up with your whole adolescense being so <button class="case study link" onclick="pic3()">visible</button> on the internet.</p>
-    
-    
-   
-  
+    <div id="desc"></div>
+  </center>
+</div> 
 
- 
-  
-  
-</center>
+<div id="pic1" style="display: none;">
+
 </div>
 
-
-<script>
-
-
-function pic1() {
-  document.getElementById("picOne").style.display = "block";
-}
-
-function pic2() {
-  document.getElementById("picTwo").style.display = "block";
-}
-
-function pic3() {
-  document.getElementById("picThree").style.display = "block";
-}
-
-
-
-
-
-
-$(document).ready(function(){
-	var divCount = 200; 
-	for(var i = 0; i < divCount; i++){
-		divWidth = Math.floor(Math.random()*(250)+25); 
-		divHeight = Math.floor(Math.random()*(250)+25); 
-		divTop = Math.floor(Math.random()*(screen.height-325)) 
-		divLeft = Math.floor(Math.random()*(screen.width-250))
-		$('<div></div>').appendTo('#collage').css({
-			"width":divWidth,
-			"height":divHeight,
-			"position":"absolute",
-			"top": divTop,
-			"left": divLeft,
-			"border":"2px solid",
-      "border-color":"LawnGreen"
-		});
-
-	}
-
-})
-
-
-
-
-</script>
+<div id="pic2" style="display: none;">
   
+  </div>
+
+  <div id="pic3" style="display: none;">
+    
+    </div>
+
+
 </body>
 </html>

@@ -1,0 +1,60 @@
+body{
+    background-image: url(../images/databg.png);
+    background-size: cover;
+    cursor: url(../images/cursor10.gif), url(../images/cursor10.gif), default;
+    font-family: 'Press Start 2P', cursive;
+  }
+
+  button{
+    background: transparent;
+    color: darkmagenta;
+    font-family: 'Press Start 2P', cursive;
+  }
+  
+  #infoBox{
+      width: 30%;
+      height: 90%;
+      background-color: fuchsia;
+      border: 8px solid fuchsia;
+      top: 2%;
+      left: 2%;
+      position: absolute;
+      background-image: url(../images/FarMediocreJuliabutterfly-size_restricted.gif);
+      background-size: cover;
+  }
+  
+  #pic1{
+    border: 8px solid fuchsia;
+    background-image: url(../images/data2main.gif);
+    background-size: cover;
+    position: absolute;
+    width: 35% !important;
+    height: 35% !important;
+    top: 2% !important;
+    left: 50% !important;
+  }
+
+  #pic2{
+    border: 8px solid fuchsia;
+    background-image: url(../images/data3youn.gif);
+    background-size: cover;
+    position: absolute;
+    width: 35% !important;
+    height: 35% !important;
+    top: 30% !important;
+    left: 40% !important;
+  }
+
+  #pic3{
+    border: 8px solid fuchsia;
+    background-image: url(../images/data1text.gif);
+    background-size: cover;
+    position: absolute;
+    width: 35% !important;
+    height: 35% !important;
+    top: 60% !important;
+    left: 50% !important;
+  }
+  
+    
+    
