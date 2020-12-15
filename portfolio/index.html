@@ -1,4 +1,5 @@
 <html>
+
 <head>
   <link rel="stylesheet" href="../portfolio/css/index.css">
   <script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
@@ -6,10 +7,90 @@
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link href="https://fonts.googleapis.com/css2?family=Goldman&family=Press+Start+2P&display=swap" rel="stylesheet">
   <script type="text/javascript" src="../portfolio/js/site.js"></script>
-
 </head>
+
 <body>
+  <div id="drag">
+    <img src="images/collage18.jpg">
+  </div>
+  <div id="drag1">
+    <img src="images/collage13.png">
+  </div>
+  <div id="drag2">
+    <img src="images/collage11.png"> 
+  </div>
+  <div id="drag3">
+    <img src="images/collage8.gif">
+  </div>
+  <div id="drag4">
+    <img src="images/collage1.png">
+  </div>
+  <div id="drag5">
+    <img src="images/collage2.gif">
+  </div>
+  <div id="drag6">
+    <img src="images/collage3.gif">
+  </div>
+  <div id="drag7">
+    <img src="images/collage21.jpg" >
+    </div>
+  <div id="drag8">
+    <img src="images/collage22.jpg">
+  </div>
+  <div id="drag9">
+    <img src="images/collage5.gif">
+  </div>
+  <div id="drag10">
+    <img src="images/collage6.gif">
+  </div>
+  <div id="drag11">
+    <img src="images/collage7.gif">
+  </div>
+  <div id="drag12">
+    <img src="images/collage9.gif">
+  </div>
+  <div id="drag13">
+    <img src="images/collage10.gif">
+  </div>
+     <div id="drag14">
+     <img src="images/collage12.png">
+   </div>
+ <div id="drag15">
+  <img src="images/collage15.png">
+</div>
+<div id="drag16">
+  <img src="images/collage17.png">
+ </div>
+ <div id="drag17">
+  <img src="images/collage20.png">
+</div>
+<div id="drag18">
+<img src="images/collage23.png">
+</div>
+   
+<div id="drag19">
+  <img src="images/collage24.png">
+</div>
+  
  
+ <div id="drag20">
+  <img src="images/collage26.png">
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
   <div class="phone that i place these links in" id="phone">
   
   <center>
@@ -51,33 +132,101 @@
 </center>
 </div>
 
-<a href="/portfolio/dataportrait.html">
+<a href="dataportrait.html">
 <div id="cs1" style="display: none;">
-  
   <div id="overlay">
+    <p style="font-size: x-large;">MY WHOLE LIFE ONLINE</p>
   </div>
 </div>
 </a>
 
-<a href="/portfolio/contentmaker.html">
+<a href="contentmaker.html">
   <div id="cs3" style="display: none">
     <div id="overlay">
+      <p>CAM CONTENT CREATOR</p>
     </div></div>
   </a>
-    <a href="/portfolio/chatbot.html">
+    <a href="chatbot.html">
   <div id="cs2" style="display: none">
     <div id="overlay">
-    
+    <p style="font-size: x-large;">PRESS HARDER</p>
     </div></div>
   </a>
     <div id="am" style="display: none">
-      <div id="text" style="font-size: medium;">I am a 22 year old artist residing in Brooklyn exploring the elusive magic of the internet. I’m a programmer working with the weapons of physical computation, internet art, and experimental video work. Being part of the first generation of digital natives my work is very influenced by my early internet experiences. Growing up I often stayed up all night in chatrooms, on Tumblr, or interacting with friends I made via the internet. My aim with my work is to bring back the sense of magic we all felt exploring the internet for the first time alone. I am somewhat of a maximalist and seek inspiration in the crazy colored, gif filled, somewhat anti-design works of early net art. I also create tools for sex workers, the LGBTQ community, and internet explorers.</div>
+      <div id="text" style="font-size: medium;">I am a 22 year old artist residing in Brooklyn exploring the magic of the internet. I’m a programmer working with physical computation, internet art, and experimental video work. Being part of the first generation of digital natives my work is very influenced by my early internet experiences. Growing up I often stayed up all night in chatrooms, on Tumblr, or interacting with friends I made via the internet. My aim with my work is to bring back the sense of magic we all felt exploring the internet for the first time alone. An important part of my mission is also creating tools for sex workers, the LGBTQ community, and internet explorers. Creating spaces of care online for communities that I am part of is helping me transform the internet landscape into a safer space while also spreading knowledge. </div>
     </div>
       <div id="cm" style="display: none">
         
         <div id="text">paydostaylor@gmail.com</div>
       
       </div>
+      <script>
+        drag(document.getElementById("drag"));
+drag(document.getElementById("drag1"));
+drag(document.getElementById("drag2"));
+drag(document.getElementById("drag3"));
+drag(document.getElementById("drag4"));
+drag(document.getElementById("drag5"));
+drag(document.getElementById("drag6"));
+drag(document.getElementById("drag7"));
+drag(document.getElementById("drag8"));
+drag(document.getElementById("drag9"));
+drag(document.getElementById("drag10"));
+drag(document.getElementById("drag11"));
+drag(document.getElementById("drag12"));
+drag(document.getElementById("drag13"));
+drag(document.getElementById("drag14"));
+drag(document.getElementById("drag15"));
+drag(document.getElementById("drag16"));
+drag(document.getElementById("drag17"));
+drag(document.getElementById("drag18"));
+drag(document.getElementById("drag19"));
+drag(document.getElementById("drag20"));
+
+
+
+
+  
+  
+function drag(elmnt) {
+ 
+  var position1 = 0, position2 = 0, position3 = 0, position4 = 0;
+  if (document.getElementById(elmnt.id)) {
+   elmnt.onmousedown = dragImage;
+  } 
+
+  function dragImage(click) {
+    click = click || window.event;
+    click.preventDefault();
+    position3 = click.clientX;
+    position4 = click.clientY;
+    document.onmouseup = lockPosition;
+    document.onmousemove = newPosition;
+  }
+
+  function newPosition(click) {
+    click = click || window.event;
+    click.preventDefault();
+    position1 = position3 - click.clientX;
+    position2 = position4 - click.clientY;
+    position3 = click.clientX;
+    position4 = click.clientY;
+    elmnt.style.top = (elmnt.offsetTop - position2) + "px";
+    elmnt.style.left = (elmnt.offsetLeft - position1) + "px";
+  }
+
+  function lockPosition() {
+    document.onmouseup = null;
+    document.onmousemove = null;
+  }
+  
+  
+  
+  
+}
+
+
+      </script>
   
 </body>
 </html>

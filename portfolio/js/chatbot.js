@@ -13,7 +13,10 @@ base('Table 1').find('recjsieGVWBF14fcz', function(err, record) {
     var descValue = document.getElementById("desc");
     descValue.innerHTML = record.get("longdesc");
     console.log(record.get('longdesc'));
-
+    
+    var descValue2 = document.getElementById("desc2");
+    descValue2.innerHTML = record.get("longdesc2");
+    console.log(record.get('longdesc2'));
 
 
     if (err) { console.error(err); return; }

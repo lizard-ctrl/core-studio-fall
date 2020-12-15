@@ -7,13 +7,14 @@ body{
 
   button{
     background: transparent;
-    color: darkmagenta;
+    color: white;
     font-family: 'Press Start 2P', cursive;
   }
   
   #infoBox{
       background-image: url(../images/videoCam3.gif);
       background-size: cover;
+      color: darkblue;
       width: 620px;
       height: 450px;
       background-color: fuchsia;

@@ -1,6 +1,6 @@
 body{
-  background-image: url(../images/clouds.gif);
-  background-repeat: repeat;
+  background-image: url(..//images/indexbggg.gif);
+  background-size: cover;
   background-color: hotpink;
   cursor: url(../images/cursor10.gif), url(../images/cursor10.gif), default;
   font-family: 'Press Start 2P', cursive;
@@ -13,13 +13,15 @@ button{
 
 #text {
   color: darkmagenta;
-  font-size: 30px;
+  font-size: 18px !important;
   position: absolute;
   text-align: center;
 }
+
 h2{
   color: darkmagenta;
 }
+
 #phone{
     width: 30%;
     height: 60%;
@@ -34,7 +36,7 @@ h2{
 #cs1{
     font-family: 'Goldman', cursive;
     color: white;
-    font-size: 30px;
+    font-size: 50px;
     position: absolute;
     text-align: center;
     width: 30%;
@@ -42,11 +44,12 @@ h2{
     background-image: url(..//images/datamine.png);
     background-size: cover;
     background-color: fuchsia;
-    border: 8px solid fuchsia;
+    border: 10px solid fuchsia;
     position: absolute;
     top: 5%;
     left: 68%;
 }
+
 #cs2{
     font-family: 'Goldman', cursive;
     color: white;
@@ -57,9 +60,9 @@ h2{
     height: 30%;
     background-image: url(..//images/chatbott.png);
     background-size: cover;
-    border: 8px solid fuchsia;
+    border: 10px solid fuchsia;
     position: absolute;
-    top: 60%;
+    top: 63%;
     left: 2%;
 }
 #cs3{
@@ -68,35 +71,36 @@ h2{
     font-size: 30px;
     position: absolute;
     text-align: center;
-    width: 32%;
+    width: 30%;
     height: 40%;
     background-image: url(..//images/camcontent.png);
     background-size: cover;
-    border: 8px solid fuchsia;
+    border: 10px solid fuchsia;
     position: absolute;
-    top: 50%;
+    top: 45%;
     left: 67%;
 }
 #am{
     font-family: 'Goldman', cursive;
     width: 30%;
-    height: 50%;
+    height: 54%;
+    font-size: xx-large !important;
     background-color: fuchsia;
-    border: 2px solid fuchsia;
+    border: 10px solid fuchsia;
     position: absolute;
-    top: 5%;
+    top: 3%;
     left: 3%;
-    background-image: url(../images/tenor.gif);
-    background-size: cover;
+   background-color: white;
 }
+
 #cm{
     font-family: 'Goldman', cursive;
     width: 28%;
     height: 5%;
     background-image:url(../images/original.gif);
-    border: 2px solid fuchsia;
+    border: 10px solid fuchsia;
     position: absolute;
-    top: 80%;
+    top: 83%;
     left: 36%;
 }
 
@@ -110,34 +114,208 @@ h2{
     width: 100%;
     opacity: 0;
     transition: 2s ease;
-    background-color: red;
     background-image: url(../images/FarMediocreJuliabutterfly-size_restricted.gif);
     background-size: cover;
   }
 
   
-
- 
-  
-  #cs1:hover #overlay {
-    opacity: 1;
-  }
-  #cs2:hover #overlay {
-    opacity: 1;
-  }
-  #cs3:hover #overlay {
-    opacity: 1;
-  }
-  
   #am:hover {
     color: red;
-    background-image: url(../images/giphy-4.gif);
+    background-image: url(../images/tenor.gif);
     background-size: cover;
   }
 
   #cm:hover{
     background-image: url(../images/original.gif);
   }
+
+  #drag {
+    position: absolute;
+    top:58%; 
+    left:15%; 
+  }
+  #drag>img{
+    width:30%;
+  }
+  #drag1 {
+    position: absolute;
+    top: 30%; 
+    left:52%; 
+  }
+  #drag1>img{
+    width:95%;
+  }
+
+  #drag2 {
+    position: absolute;
+    top:31%; 
+    left:8%;
+  }
+  #drag2>img{
+   width:38%;
+  }
+
+  #drag3 {
+    position: absolute;
+    top:3%; 
+    left:65%; 
+  }
+  #drag3>img{
+    width:35%;
+  }
+
+  #drag4 {
+    position: absolute;
+    top:50%; left:64%; 
+  }
+  #drag4>img{
+    width:70%;
+  }
+
+  #drag5 {
+    position: absolute;
+    top:5%; 
+    left:73%;
+  }
+  #drag5>img{
+    width:60%;
+  }
+
+  #drag6 {
+    position: absolute;
+    top:52%; 
+    left:25%;
+  }
+  #drag6>img{
+    width:35%;
+  }
+
+  #drag7 {
+    position: absolute;
+    top:43%; 
+    left:50%; 
+  }
+  #drag7>img{
+    width:40%;
+  }
+
+  #drag8 {
+    position: absolute;
+    top:4%; 
+    left:13%;
+  }
+  #drag8>img{
+    width:20%;
+  }
+
+  #drag9 {
+    position: absolute;
+    top:65%; 
+    left:55%; 
+  }
+  #drag9>img{
+    width:50%;
+  }
+
+  #drag10 {
+    position: absolute;
+    top:37%; 
+    left:16%; 
+  }
+  #drag10>img{
+    width:40%;
+  }
+
+  #drag11 {
+    position: absolute;
+    top:60%; 
+    left:84%; 
+  }
+  #drag11>img{
+    width:90%;
+  }
+
+  #drag12 {
+    position: absolute;
+    top:2%; 
+    left:30%; 
+  }
+  #drag12>img{
+    width:50%;
+  }
+
+  #drag13 {
+    position: absolute;
+    top:65%; 
+    left:32%; 
+  }
+  #drag13>img{
+    width:45%;
+  }
+  #drag14 {
+    position: absolute;
+    top: 25%; 
+    left:5%; 
+  }
+  #drag14>img{
+    width:35%;
+  }
+
+  #drag15 {
+    position: absolute;
+    top:7%; 
+    left:2%;
+  }
+  #drag15>img{
+    width:15%;
+  }
+
+  #drag16 {
+    position: absolute;
+    top:70%; 
+    left:13%; 
+  }
+  #drag16>img{
+    width:25%;
+  }
+
+  #drag17 {
+    position: absolute;
+    top: 1%; 
+    left:53%; 
+  }
+  #drag17>img{
+    width:40%;
+  }
+
+  #drag18 {
+    position: absolute;
+    top:45%; 
+    left:68%; 
+  }
+  #drag18>img{
+    width:60%;
+  }
+
+  #drag19 {
+    position: absolute;
+    top:19%; 
+    left:24%; 
+  }
+  #drag19>img{
+    width:35%;
+  }
+
+  #drag20 {
+    position: absolute;
+    top: 25%; 
+    left:76%; 
+  }
+  #drag20>img{
+    width:40%;
+  }
+
+ 
 
   
   

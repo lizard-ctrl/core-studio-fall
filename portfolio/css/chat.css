@@ -7,19 +7,20 @@ body{
 
   button{
     background: transparent;
-    color: darkmagenta;
+    color: white;
     font-family: 'Press Start 2P', cursive;
   }
   
   #infoBox{
       width: 50%;
       height: 90%;
+      color: darkblue;
       background-color: fuchsia;
       border: 8px solid fuchsia;
       top: 3%;
       left: 45%;
       position: absolute;
-      background-image: url(../images/giphy-1.gif);
+      background-image: url(../images/rain-running-down-windowsill.gif);
       background-size: cover;
   }
 
