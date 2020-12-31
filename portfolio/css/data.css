@@ -58,4 +58,52 @@ body{
   }
   
     
-    
+  @media only screen and (min-width: 375px) and (max-width: 1000px) {
+    #infoBox{
+       color: darkblue;
+        width: 75%;
+        height: 60%;
+        background-color: fuchsia;
+        border: 8px solid fuchsia;
+        top: 5%;
+        left: 2%;
+        position: absolute;
+        background-image: url(../images/FarMediocreJuliabutterfly-size_restricted.gif);
+        background-size: cover;
+    }
+    #pic1{
+      display: block !important;
+      border: 8px solid fuchsia;
+      background-image: url(../images/data1text.gif);
+      background-size: cover;
+      position: absolute;
+      width: 45% !important;
+      height: 25% !important;
+      top: 62% !important;
+      left: 50% !important;
+    }
+  
+    #pic2{
+      display: block !important;
+      border: 8px solid fuchsia;
+      background-image: url(../images/data3youn.gif);
+      background-size: cover;
+      position: absolute;
+      width: 45% !important;
+      height: 25% !important;
+      top: 70% !important;
+      left: 20% !important;
+    }
+  
+    #pic3{
+      border: 8px solid fuchsia;
+      background-image: url(../images/data2main.gif);
+      background-size: cover;
+      position: absolute;
+      width: 25% !important;
+      height: 25% !important;
+      top: 62% !important;
+      left: 5% !important;
+    }
+
+  }

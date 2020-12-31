@@ -6,6 +6,9 @@ body{
   font-family: 'Press Start 2P', cursive;
 }
 
+#phonedisplay{
+  display: none;
+}
 button{
   color: darkmagenta;
   font-family: 'Press Start 2P', cursive;
@@ -336,7 +339,205 @@ h2{
     width:40%;
   }
 
+  @media only screen and (min-width: 375px) and (max-width: 1000px) {
+    #phone{
+      width: 70%;
+      height: 65%;
+      background-color: fuchsia;
+      border: 20px solid fuchsia;
+      top: 15%;
+      left: 15%;
+      position: absolute;
+      background-image: url(../images/indexbggg.gif);
+      background-size: cover;
+  }
+  button{
+   display: none;
+  }
+  h2{
+    color: fuchsia;
+    font-size: xx-large;
+  }
+
+
+
+  #drag {
+    position: absolute;
+    top:68%; 
+    left:15%; 
+  }
+  #drag>img{
+    width:50%;
+  }
+
+  #drag1 {
+    position: absolute;
+    top: 30%; 
+    left:10%; 
+  }
+  #drag1>img{
+    width:98%;
+  }
+
+  #drag2 {
+    position: absolute;
+    top:31%; 
+    left:100%;
+  }
+  #drag2>img{
+   width:88%;
+  }
+
+  #drag3 {
+    position: absolute;
+    top:3%; 
+    left:75%; 
+  }
+  #drag3>img{
+    width:85%;
+  }
+
+  #drag4 {
+    position: absolute;
+    top:70%; 
+    left:64%; 
+  }
+  #drag4>img{
+    width:100%;
+  }
+
+  #drag5 {
+    position: absolute;
+    top:50%; 
+    left:73%;
+  }
+  #drag5>img{
+    width:90%;
+  }
+
+  #drag6 {
+    display: none;
+  }
+  #drag6>img{
+   display: none;
+  }
+  
+
+  #drag7 {
+    position: absolute;
+    top:60%; 
+    left:3%; 
+  }
+  #drag7>img{
+    width:20%;
+    height: 30%;
+  }
+
+  #drag8 {
+    position: absolute;
+    top:74%; 
+    left:60%;
+  }
+  #drag8>img{
+    width:50%;
+  }
+
+  #drag9 {
+    position: absolute;
+    top:85%; 
+    left:55%; 
+  }
+  #drag9>img{
+    width:60%;
+  }
+  
+  #drag10 {
+    position: absolute;
+    top:17%; 
+    left:3%; 
+  }
+  #drag10>img{
+    width:40%;
+    height: 30%;
+  }
+
+  #drag11 {
+    position: absolute;
+    top:86%; 
+    left:14%; 
+  }
+  #drag11>img{
+    width:30%;
+  }
  
+
+  #drag12 {
+    position: absolute;
+    top:5%; 
+    left:30%; 
+  }
+  #drag12>img{
+    width:70%;
+  }
+  
+
+  #drag13 {
+    position: absolute;
+    top:15%; 
+    left: 3%; 
+  }
+  #drag13>img{
+    width:45%;
+    height: 33%;
+  }
+  
+  #drag14 {
+    position: absolute;
+    top: 25%; 
+    left:5%; 
+  }
+  #drag14>img{
+    width:45%;
+  }
+
+  #drag15 {
+    position: absolute;
+    top:3%; 
+    left:4%;
+  }
+  #drag15>img{
+    width:35%;
+  }
+  #drag16 {
+    position: absolute;
+    top:2%; 
+    left:13%; 
+  }
+  #drag16>img{
+    width:35%;
+  }
+  #drag17 {
+    position: absolute;
+    top: 78%; 
+    left:53%; 
+  }
+  #drag17>img{
+    width:40%;
+  }
+  
+  pre{
+    background-color: fuchsia;
+    width: fit-content;
+  }
+
+  #phonedisplay{
+    display: block;
+    width: 70%;
+    height: 40%;
+    background-color: fuchsia;
+  }
+
+  }
 
   
   

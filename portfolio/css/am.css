@@ -1,0 +1,21 @@
+body{
+    background-image: url(../images/giphy-4.gif);
+    background-size: cover;
+    cursor: url(../images/cursor10.gif), url(../images/cursor10.gif), default;
+    font-family: 'Press Start 2P', cursive;
+  }
+
+#am{
+    font-family: 'Goldman', cursive;
+    width: 60%;
+    height: 84%;
+    font-size: xx-large !important;
+    text-align: center;
+    background-image: url(../images/indexbggg.gif) !important;
+    background-size: cover !important;
+    border: 10px solid fuchsia;
+    position: absolute;
+    top: 3%;
+    left: 3%;
+    background-color: white;
+}

@@ -34,3 +34,30 @@ body{
     top: 3% !important;
     left: 3% !important;
   }
+
+
+  @media only screen and (min-width: 375px) and (max-width: 1000px){
+    #infoBox{
+      width: 80%;
+      height: 63%;
+      color: darkblue;
+      background-color: fuchsia;
+      border: 8px solid fuchsia;
+      top: 3%;
+      left: 10%;
+      position: absolute;
+      background-image: url(../images/rain-running-down-windowsill.gif);
+      background-size: cover;
+  }
+  #pic1{
+    display: block !important;
+    border: 8px solid fuchsia;
+    background-image: url(../images/tryagain.gif);
+    background-size: cover;
+    position: absolute;
+    width: 90% !important;
+    height: 25% !important;
+    top: 70% !important;
+    left: 5% !important;
+  }
+  }

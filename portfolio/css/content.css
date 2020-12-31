@@ -47,5 +47,44 @@ body{
     left: 65% !important;
   }
 
-  
-  
+  @media only screen and (min-width: 375px) and (max-width: 1000px){
+
+  #infoBox{
+    background-image: url(../images/videoCam3.gif);
+    background-size: cover;
+    color: darkblue;
+    width: 85%;
+    height: 50%;
+    background-color: fuchsia;
+    border: 5px solid fuchsia;
+    top: 4%;
+    left: 1%;
+    position: absolute;
+}
+
+
+#pic1{
+  display: block !important;
+  border: 8px solid fuchsia;
+  background-image: url(../images/mainCam2.gif);
+  background-size: cover;
+  position: absolute;
+  width: 75% !important;
+  height: 35% !important;
+  top: 57% !important;
+  left: 15% !important;
+}
+
+#pic2{
+  display: none;
+  border: 8px solid fuchsia;
+  background-image: url(../images/FAQcam1.gif);
+  background-size: cover;
+  position: absolute;
+  width: 40% !important;
+  height: 50% !important;
+  top: 45% !important;
+  left: 54% !important;
+}
+
+  }
