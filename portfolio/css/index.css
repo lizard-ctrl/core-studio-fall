@@ -96,6 +96,7 @@ h2{
     top: 3%;
     left: 3%;
     background-color: white;
+    overflow: scroll !important;
 }
 
 #cm{
